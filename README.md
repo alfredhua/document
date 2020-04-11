@@ -1,2 +1,3 @@
-* centos
-  * [软件安装](./docs/centos/centos.md)
+# docs
+
+[设计原则](./docs/desgin/info)
