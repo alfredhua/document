@@ -17,9 +17,8 @@
   <script src="//imgcache.qq.com/open/qcloud/video/vcplayer/TcPlayer-2.3.2.js" charset="utf-8"></script>
   <script>
   var player =  new TcPlayer('id_test_video', {
- //   rtmp://35572.livepush.myqcloud.com/live/c7a71707e0?bizid=35572&txSecret=f8e71cb1338119657290a95f94290f42&txTime=5E972F7F
-    "m3u8": "http://35572.livepush.myqcloud.com/live/c7a71707e0.m3u8?bizid=35572&txSecret=f8e71cb1338119657290a95f94290f42&txTime=5E972F7F",
-    "flv": "http://35572.livepush.myqcloud.com/live/c7a71707e0.flv?bizid=35572&txSecret=f8e71cb1338119657290a95f94290f42&txTime=5E972F7F", //增加了一个 flv 的播放地址，用于PC平台的播放 请替换成实际可用的播放地址
+    "m3u8": "http://live.alfredhua.com/live/huastream.m3u8",
+    "flv": "http://live.alfredhua.com/live/huastream.flv", //增加了一个 flv 的播放地址，用于PC平台的播放 请替换成实际可用的播放地址
     "autoplay" : true,      //iOS 下 safari 浏览器，以及大部分移动端浏览器是不开放视频自动播放这个能力的
     "poster" : "http://www.test.com/myimage.jpg",
     "width" :  '480',//视频的显示宽度，请尽量使用视频分辨率宽度
