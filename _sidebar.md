@@ -13,8 +13,12 @@
 * [JAVA](./docs/java/info.md)
   * [引用](./docs/java/reference.md)
   * [HashMap](./docs/java/hashmap.md)
+  * [Interge（-128）到（127）的数据交换](./docs/java/interge.md)
+  * [ArrayList和LinkedList](./docs/java/list.md)
+  * [锁](./docs/java/synchronized.md)
+  * [运算符]](./docs/java/calculations.md)
 
-
+  
 * [面试](./docs/interview/info.md)
   * [java集合](./docs/interview/collections.md)
   * [java锁](./docs/interview/synchronized.md)
