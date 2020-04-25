@@ -10,6 +10,10 @@
   * [委派模式和适配器模式](./docs/desgin/adaple.md) 
   * [装饰器模式](./docs/desgin/decorate.md) 
 
+* [JAVA](./docs/java/info.md)
+  * [引用](./docs/java/reference.md)
+  * [HashMap](./docs/java/hashmap.md)
+
 
 * [面试](./docs/interview/info.md)
   * [java集合](./docs/interview/collections.md)
