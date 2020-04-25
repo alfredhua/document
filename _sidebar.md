@@ -23,7 +23,7 @@
   * [Interge（-128）到（127）的数据交换](./docs/java/interge.md)
   * [ArrayList和LinkedList](./docs/java/list.md)
   * [锁](./docs/java/synchronized.md)
-  * [运算符]](./docs/java/calculations.md)
+  * [运算符](./docs/java/calculations.md)
 
 * [Mybatis](./docs/mybatis/README.md)
   * [ORM](./docs/mybatis/ORM.md)
