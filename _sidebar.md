@@ -10,6 +10,10 @@
   * [委派模式和适配器模式](./docs/desgin/adaple.md) 
   * [装饰器模式](./docs/desgin/decorate.md) 
 
+* [centos](./docs/centos/README.md)
+  * [centos下软件安装](./docs/centos/centos下软件安装.md)
+
+
 * [JVM](./docs/jvm/README.md)
   * [jvm类加载](./docs/jvm/jvm类加载.md)
 
@@ -21,7 +25,8 @@
   * [锁](./docs/java/synchronized.md)
   * [运算符]](./docs/java/calculations.md)
 
-
+* [Mybatis](./docs/mybatis/README.md)
+  * [ORM](./docs/mybatis/ORM.md)
   
 * [面试](./docs/interview/README.md)
   * [java集合](./docs/interview/collections.md)
