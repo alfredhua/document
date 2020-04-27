@@ -29,6 +29,7 @@
   * [ORM](./docs/mybatis/ORM.md)
   
 * [面试](./docs/interview/README.md)
+  * [java基础](./docs/interview/java基础.md)
   * [java集合](./docs/interview/集合.md)
   * [java锁](./docs/interview/锁.md)
   * [JVM](./docs/interview/jvm.md)
