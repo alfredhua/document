@@ -22,6 +22,9 @@
   * [垃圾收集器](./docs/jvm/垃圾收集器.md)
   * [JVM参数](./docs/jvm/JVM参数.md)
   * [JVM常用命令](./docs/jvm/JVM常用命令.md)
+  * [JVM常用工具](./docs/jvm/JVM常用工具.md)
+  * [常见问题](./docs/jvm/常见问题.md)
+
 
 * [JAVA](./docs/java/README.md)
   * [引用](./docs/java/reference.md)
