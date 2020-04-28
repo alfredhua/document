@@ -16,6 +16,12 @@
 
 * [JVM](./docs/jvm/README.md)
   * [jvm类加载](./docs/jvm/jvm类加载.md)
+  * [栈帧](./docs/jvm/栈帧.md)
+  * [内存模型](./docs/jvm/内存模型.md)
+  * [垃圾回收](./docs/jvm/垃圾回收.md)
+  * [垃圾收集器](./docs/jvm/垃圾收集器.md)
+  * [JVM参数](./docs/jvm/JVM参数.md)
+  * [JVM常用命令](./docs/jvm/JVM常用命令.md)
 
 * [JAVA](./docs/java/README.md)
   * [引用](./docs/java/reference.md)
