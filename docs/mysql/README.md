@@ -1,0 +1,5 @@
+* [MySQL](./docs/mysql/README.md)
+  * [安装与卸载](./docs/mysql/mysql安装与卸载.md)
+  * [忘记和修改密码](./docs/mysql/忘记和修改密码.md)
+  * [基本语法](./docs/mysql/基本语法.md)
+  * [索引](./docs/mysql/mysql索引.md)
