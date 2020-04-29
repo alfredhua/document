@@ -1,4 +1,4 @@
-* [设计原则](./docs/desgin/info.md)
+* [设计原则](./docs/desgin/README.md)
   * [单一职责原则](./docs/desgin/单一职责.md)
   * [开闭原则](./docs/desgin/开闭原则.md)
   * [接口隔离原则](./docs/desgin/接口隔离原则.md)
