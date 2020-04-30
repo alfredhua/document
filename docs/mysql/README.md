@@ -3,3 +3,4 @@
   * [忘记和修改密码](./docs/mysql/忘记和修改密码.md)
   * [基本语法](./docs/mysql/基本语法.md)
   * [索引](./docs/mysql/mysql索引.md)
+  * [MySQL的存储结构](./docs/mysql/MySQL的存储结构.md)
