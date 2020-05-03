@@ -23,6 +23,10 @@
   * [忘记和修改密码](./docs/mysql/忘记和修改密码.md)
   * [基本语法](./docs/mysql/基本语法.md)
   * [索引](./docs/mysql/mysql索引.md)
+  * [SQL的执行流程](./docs/mysql/SQL的执行流程.md)
+  * [MySQL存储结构](./docs/mysql/MySQL存储结构.md)
+  * [MySQL事务](./docs/mysql/MySQL事务.md)
+  * [MySQL锁](./docs/mysql/MySQL锁.md)
 
 
 * [并发](./docs/current/README.md)
