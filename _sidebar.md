@@ -27,6 +27,7 @@
   * [MySQL存储结构](./docs/mysql/MySQL存储结构.md)
   * [MySQL事务](./docs/mysql/MySQL事务.md)
   * [MySQL锁](./docs/mysql/MySQL锁.md)
+  * [性能优化](./docs/mysql/性能优化.md)
 
 
 * [并发](./docs/current/README.md)
