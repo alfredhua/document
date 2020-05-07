@@ -29,6 +29,11 @@
   * [MySQL锁](./docs/mysql/8.MySQL锁.md)
   * [性能优化](./docs/mysql/9.性能优化.md)
 
+* [mybatis](./docs/mybatis/README.md)
+  * [jdbc连接流程](./docs/mybatis/1.jdbc连接流程.md)
+  * [源码解读](./docs/mybatis/2.源码解读.md)
+  * [手写mybatis](./docs/mybatis/3.手写mybatis.md)
+  * [ORM](./docs/mybatis/4.ORM.md)
 
 * [并发](./docs/current/README.md)
   * [基本概念](./docs/current/并发基本概念.md)
@@ -54,11 +59,6 @@
 * [centos](./docs/centos/README.md)
   * [centos下软件安装](./docs/centos/centos下软件安装.md)
 
-* [Mybatis](./docs/mybatis/README.md)
-  * [jdbc连接流程](./docs/mybatis/1.jdbc连接流程.md)
-  * [源码解读](./docs/mybatis/2.源码解读.md)
-  * [手写mybatis](./docs/mybatis/3.手写mybatis.md)
-  * [ORM](./docs/mybatis/4.ORM.md)
   
 * [面试](./docs/interview/README.md)
   * [java基础](./docs/interview/java基础.md)
