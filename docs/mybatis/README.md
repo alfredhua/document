@@ -1,2 +1,5 @@
-* [Mybatis](./README.md)
-  * [ORM](./ORM.md)
+* [Mybatis](./docs/mybatis/README.md)
+  * [jdbc连接流程](./docs/mybatis/1.jdbc连接流程.md)
+  * [源码解读](./docs/mybatis/2.源码解读.md)
+  * [手写mybatis](./docs/mybatis/3.手写mybatis.md)
+  * [ORM](./docs/mybatis/4.ORM.md)

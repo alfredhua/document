@@ -55,7 +55,10 @@
   * [centos下软件安装](./docs/centos/centos下软件安装.md)
 
 * [Mybatis](./docs/mybatis/README.md)
-  * [ORM](./docs/mybatis/ORM.md)
+  * [jdbc连接流程](./docs/mybatis/1.jdbc连接流程.md)
+  * [源码解读](./docs/mybatis/2.源码解读.md)
+  * [手写mybatis](./docs/mybatis/3.手写mybatis.md)
+  * [ORM](./docs/mybatis/4.ORM.md)
   
 * [面试](./docs/interview/README.md)
   * [java基础](./docs/interview/java基础.md)
