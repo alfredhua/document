@@ -29,6 +29,7 @@ static final int hash(Object key) {
 - putVal方法：
 
     tab[ (n - 1) & hash]：n是tab的长度，则： (n - 1) & hash：一定是一个小于n的数字。
+    
 ```java
 
 //肯定是一个小于n的数。
@@ -196,6 +197,7 @@ final Node<K,V>[] resize() {
 
 1. put的时候导致的多线程数据不一致。
 2. 多线程put后可能导致get死循环：
+
 ```java
 void transfer(Entry[] newTable) {
      Entry[] src = table;                   //src引用了旧的Entry数组
