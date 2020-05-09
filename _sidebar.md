@@ -38,6 +38,9 @@
 * [Spring](./docs/spring/README.md)
   * [基本教程](./docs/spring/1.基本教程.md)
   * [IOC的XML方式源码分析](./docs/spring/2.IOC的XML方式源码分析.md)
+  * [IOC的注解方式源码解析](./docs/spring/3.IOC的注解方式源码解析.md)
+  * [DI源码解析](./docs/spring/4.DI源码解析.md)
+  * [AOP源码分析](./docs/spring/5.AOP源码分析.md)
 
 * [并发](./docs/current/README.md)
   * [基本概念](./docs/current/并发基本概念.md)
