@@ -180,7 +180,7 @@
 
 4. BeanFactory和ApplicationContext都支持BeanPostProcessor、BeanFactoryPostProcessor的使用，但两者之间的区别是：BeanFactory需要手动注册，而ApplicationContext则是自动注册。
 
-```
+```java
 <!-- 将CellPhone部署成prototype的范围 -->
 <bean id="cellPhone" class="com.abc.CellPhone" scope="prototype" />
 <bean id="developer" class="com.abc.Developer">
