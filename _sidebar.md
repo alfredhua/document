@@ -55,9 +55,18 @@
   * [消息积压](./docs/rabbitmq/8.消息积压.md)
   * [死信队列](./docs/rabbitmq/9.死信队列.md)
   * [如何设计一个MQ](./docs/rabbitmq/10.如何设计一个MQ.md)
-* 
+
 * [redis](./docs/redis/README.md)
-  * [基本教程](./docs/RabbitMQ/1.安装.md)
+  * [基本教程](./docs/redis/1.安装.md)
+  * [数据类型](./docs/redis/2.数据类型.md)
+  * [应用场景](./docs/redis/3.应用场景.md)
+  * [单线程模型](./docs/redis/4.单线程模型.md)
+  * [过期策略](./docs/redis/5.过期策略.md)
+  * [数据恢复](./docs/redis/6.数据恢复.md)
+  * [哨兵模式](./docs/redis/7.哨兵模式.md)
+  * [缓冲](./docs/redis/8.缓冲.md)
+
+
 
 * [并发](./docs/current/README.md)
   * [基本概念](./docs/current/并发基本概念.md)
