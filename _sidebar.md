@@ -44,6 +44,16 @@
   * [Spring MVC](./docs/spring/6.mvc.md)
   * [Spring 事务](./docs/spring/7.事务.md)
 
+* [RabbitMQ](./docs/RabbitMQ/README.md)
+  * [基本教程](./docs/RabbitMQ/1.安装.md)
+  * [消息模式](./docs/RabbitMQ/2.Rabbitmq消息模式.md)
+  * [基本操作](./docs/RabbitMQ/3.基本操作.md)
+  * [消息的可靠性投递](./docs/RabbitMQ/4.消息的可靠性投递.md)
+  * [重复消费](./docs/RabbitMQ/5.重复消费.md)
+  * [消息丢失问题](./docs/RabbitMQ/6.消息丢失问题.md)
+
+
+
 * [并发](./docs/current/README.md)
   * [基本概念](./docs/current/并发基本概念.md)
   * [并发级别](./docs/current/并发级别.md)
