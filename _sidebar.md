@@ -51,8 +51,13 @@
   * [消息的可靠性投递](./docs/RabbitMQ/4.消息的可靠性投递.md)
   * [重复消费](./docs/RabbitMQ/5.重复消费.md)
   * [消息丢失问题](./docs/RabbitMQ/6.消息丢失问题.md)
-
-
+  * [高可用](./docs/RabbitMQ/7.高可用.md)
+  * [消息积压](./docs/RabbitMQ/8.消息积压.md)
+  * [死信队列](./docs/RabbitMQ/9.死信队列.md)
+  * [如何设计一个MQ](./docs/RabbitMQ/10.如何设计一个MQ.md)
+  
+* [redis](./docs/redis/README.md)
+  * [基本教程](./docs/RabbitMQ/1.安装.md)
 
 * [并发](./docs/current/README.md)
   * [基本概念](./docs/current/并发基本概念.md)
