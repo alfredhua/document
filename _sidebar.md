@@ -45,7 +45,7 @@
   * [Spring 事务](./docs/spring/7.事务.md)
 
 * [RabbitMQ](./docs/rabbitmq/README.md)
-  * [基本教程](./docs/rabbitmq/1.安装.md)
+  * [安装](./docs/rabbitmq/1.安装.md)
   * [消息模式](./docs/rabbitmq/2.消息模式.md)
   * [基本操作](./docs/rabbitmq/3.基本操作.md)
   * [消息的可靠性投递](./docs/rabbitmq/4.消息可靠性投递.md)
