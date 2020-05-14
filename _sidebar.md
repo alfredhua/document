@@ -65,6 +65,7 @@
   * [数据恢复](./docs/redis/6.数据恢复.md)
   * [哨兵模式](./docs/redis/7.哨兵模式.md)
   * [缓冲](./docs/redis/8.缓冲.md)
+  * [RedisTemplate](./docs/redis/9.RedisTemplate.md)
 
 
 
