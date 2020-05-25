@@ -125,7 +125,7 @@ Mybatis在处理${}时，就是把${}替换成变量的值。
 无论是association元素还是collection元素都会遇到，本文以更为典型的collection元素为例。
 
 ```
-​	select * from teacher
+	select * from teacher
 
 ```
 此时可查询出多条（记为N）教师记录。为了进一步查询出教师指导的学生的信息，需要针对每一条教师记录，生成一条SQL语句，即：select * from student where supervisor_id=?
