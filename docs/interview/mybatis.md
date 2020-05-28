@@ -43,7 +43,7 @@ Mybatis在处理${}时，就是把${}替换成变量的值。
 ## 当实体类中的属性名和表中的字段名不一样 ，怎么办
 
 - 通过在查询的sql语句中定义字段名的别名，让字段名的别名和实体类的属性名一致
-- 通过<resultMap>来映射字段名和实体类属性名的一一对应的关系。
+- 通过 &lt;resultMap&gt; 来映射字段名和实体类属性名的一一对应的关系。
 
 ## 通常一个Xml映射文件，都会写一个Dao接口与之对应，请问，这个Dao接口的工作原理是什么？Dao接口里的方法，参数不同时，方法能重载吗？
 
@@ -125,7 +125,7 @@ Mybatis在处理${}时，就是把${}替换成变量的值。
 无论是association元素还是collection元素都会遇到，本文以更为典型的collection元素为例。
 
 ```
-​	select * from teacher
+	select * from teacher
 
 ```
 此时可查询出多条（记为N）教师记录。为了进一步查询出教师指导的学生的信息，需要针对每一条教师记录，生成一条SQL语句，即：select * from student where supervisor_id=?
