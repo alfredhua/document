@@ -78,8 +78,9 @@
   * [CyclicBarrier](./docs/current/CyclicBarrier.md)
   * [线程池](./docs/current/线程池.md)
   * [原子类](./docs/current/原子类.md)
+  * [锁](./docs/current/锁.md)
 
- 
+
 * [JVM](./docs/jvm/README.md)
   * [jvm类加载](./docs/jvm/1.jvm类加载.md)
   * [栈帧](./docs/jvm/2.栈帧.md)
@@ -95,7 +96,6 @@
 * [centos](./docs/centos/README.md)
   * [centos下软件安装](./docs/centos/centos下软件安装.md)
 
-  
 * [面试](./docs/interview/README.md)
   * [java基础](./docs/interview/java基础.md)
   * [java集合](./docs/interview/集合.md)
@@ -114,5 +114,5 @@
   * [RabbitMQ](./docs/interview/rabbitmq.md)  
 
 
-  
+
 
