@@ -59,6 +59,24 @@
 
 ​	如果我们的切面比较少，那么两者性能差异不大。但是，当切面太多的话，最好选择 AspectJ ，它比Spring AOP 快很多。
 
+## Filter和拦截器区别
+
+### Filter：
+
+- 过滤器拦截web访问url地址。严格意义上讲，filter只是适用于web中，依赖于Servlet容器，利用Java的回调机制进行实现。
+- Filter过滤器：和框架无关，可以控制最初的http请求，但是更细一点的类和方法控制不了。
+- **过滤器可以拦截到方法的请求和响应(ServletRequest request, ServletResponse response)**，并对请求响应做出像响应的过滤操作，
+- 比如**设置字符编码，鉴权操作**等
+
+### 拦截器：
+
+- ***\*拦截器拦截以 .action结尾的url，拦截Action的访问\****。 Interfactor是基于**Java的反射机制**（APO思想）进行实现，不依赖Servlet容器。
+- **拦截器可以在方法执行之前(preHandle)和方法执行之后(afterCompletion)进行操作，回调操作(postHandle)**，***\*可以获取执行的方法的名称\****，请求(HttpServletRequest)
+- Interceptor：**可以控制请求的控制器和方法**，但**控制不了请求方法里的参数(\**只能获取参数的名称，不能获取到参数的值\**)**
+- **（**用于处理页面提交的请求响应并进行处理，例如做国际化，做主题更换，过滤等）。
+
+### 
+
 ## Spring 中的 bean 的作用域有哪些?
 
 - singleton : 唯一 bean 实例，Spring 中的 bean 默认都是单例的。
@@ -291,3 +309,36 @@ BeanFactory定义了ioc容器的最基本形式，并提供了ioc容器应遵守
 
 Spring只对单例bean的循环依赖进行了解决，同时如果是通过构造函数注入造成的循环依赖，Spring也没有办法解决，只是抛出BeanCurrentlyInCreationException异常。如果是通过setter方式注入而产生的循环依赖，Spring在创建bean对象时，通过提前暴露一个ObjectFactory用来返回一个创建中的bean对象，从而使其它bean能够引用到这个bean。
 
+
+
+## singleton中注入prototype ben的问题
+
+spring实例化一个bean时会先实例话它依赖的bean，对于singleton，spring只会实例化一次， 但是在有些场景下，例如购物场景： 购物服务属于公共无状态服务，一般定义成一个singleton的bean，购物车则通常定义为prototype 而通常又会在购物服务中注入购物车实例，以便向购物车添加商品, 如果使用传统的 @Autoware方式注入购物车实例，那么多个访客可能就共用了同一个购物车实例，因为 购物服务是单例的，注入只会发生一次。 为了解决这个问题，
+
+spring提供了两个方案：
+
+**单例继承ApplicationContextAware**
+
+继承了ApplicationContextAware的购物服务bean可以拿到当前的context，从而调用context.getBean()获取 一个新的购物车bean，解决了脏数据问题。 但是这种方式不够灵活，毕竟要实现一个接口，显式地耦合了spring框架。
+
+类注解上PersonDao增加@Scope("prototype") 
+
+放弃@Autowired
+
+```java
+public class PersonService  implements ApplicationContextAware {
+
+private ApplicationContext applicationContext;
+
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        this.applicationContext = applicationContext;
+    }
+
+    protected PersonDao createPersonDao() {
+        return this.applicationContext.getBean( PersonDao.class);
+    }
+}
+```
+
+这种方式是单例的依赖注入只会注入一次，所以不会生效，只有这样的方式才可以拿到的bean是多例的。
