@@ -118,6 +118,12 @@
 
 * [centos](./docs/centos/README.md)
   * [centos下软件安装](./docs/centos/centos下软件安装.md)
+* [算法](./docs/algorithm/README.md)
+  - [递归](./docs/algorithm/递归.md)
+  - [回溯](./docs/algorithm/回溯.md)
+  - [排序](./docs/algorithm/排序.md)
+  - [双子针](./docs/algorithm/双子针.md)
+
 
 * [面试](./docs/interview/README.md)
   * [java基础](./docs/interview/java基础.md)
@@ -135,7 +141,3 @@
   * [nginx](./docs/interview/nginx.md)  
   * [zookeeper](./docs/interview/zookeeper.md)  
   * [RabbitMQ](./docs/interview/rabbitmq.md)  
-
-
-
-
