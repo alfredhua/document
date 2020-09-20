@@ -95,17 +95,27 @@ yum install tmux
 
 yum install docker
 
-mysql：docker pull mysql:5.7.28
+### mysql：
 
-mysql启动：docker run --name mysql -e 
+docker pull mysql:5.7.28
+
+mysql启动：
+
+docker run --name mysql -e 
 
 MYSQL_ROOT_PASSWORD=demo -d mysql:5.7.28
 
+### rabbitmq
 docker pull rabbitmq
 
+### redis
 docker pull redis
 
+### zookeeper
+
 docker pull zookeeper
+
+### nexus3
 
 docker pull sonatype/nexus3
 
