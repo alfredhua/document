@@ -1,5 +1,5 @@
 * [JVM](./docs/2.java/jvm/README.md)
-  * [jvm类加载](./docs/2.java/jvm/jvm类加载.md)
+  * [jvm类加载](./docs/2.java/jvm/1.jvm类加载.md)
   * [栈帧](./docs/2.java/jvm/2.栈帧.md)
   * [内存模型](./docs/2.java/jvm/3.内存模型.md)
   * [垃圾回收](./docs/2.java/jvm/4.垃圾回收.md)
