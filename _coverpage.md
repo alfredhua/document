@@ -5,5 +5,5 @@
 
 <!-- [常用资源](https://shimo.im/docs/MuiACIg1HlYfVxrj/) -->
 [GitHub](https://github.com/alfredhua/document.git)
-[开始阅读](./docs/desgin/README)
+[开始阅读](./docs/README.md)
 
