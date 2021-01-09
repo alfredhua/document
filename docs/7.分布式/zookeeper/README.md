@@ -1,0 +1,7 @@
+* [zookeeper](./docs/7.分布式/zookeeper/README.md)
+    * [基本概念](./docs/7.分布式/zookeeper/1.基本概念.md)
+    * [操作](./docs/7.分布式/zookeeper/2.操作.md)
+    * [使用场景](./docs/7.分布式/zookeeper/3.使用场景.md)
+    * [分布式锁](./docs/7.分布式/zookeeper/4.分布式锁.md)
+    * [分布式一致性](./docs/7.分布式/zookeeper/5.分布式一致性.md)
+    * [集群搭建](./docs/7.分布式/zookeeper/6.集群搭建.md)
