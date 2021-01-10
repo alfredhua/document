@@ -6,4 +6,9 @@
   * [Index操作](./docs/3.数据库/elasticsearch/5.Index操作.md)
   * [CRUD](./docs/3.数据库/elasticsearch/6.CRUD.md)
   * [集群操作](./docs/3.数据库/elasticsearch/6.集群操作.md)
+  * [多字段特性及自定义Analyzer](./docs/3.数据库/elasticsearch/8.多字段特性及自定义Analyzer.md)
+  * [Index Template](./docs/3.数据库/elasticsearch/9.IndexTemplate.md)
+  * [聚合](./docs/3.数据库/elasticsearch/9.聚合.md)
+
+  
 
